@@ -1,2 +1,21 @@
 CLASS xp net/minecraft/world/BlockAccess
+	METHOD a getBlockID (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a (IIII)F
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD c (III)F
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD e (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD f getBlockMaterial (III)Lln;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

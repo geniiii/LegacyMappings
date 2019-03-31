@@ -1,4 +1,9 @@
 CLASS pm net/minecraft/world/WorldAccess
+	METHOD a playLevelEvent (Lgs;IIIII)V
+		ARG 2 eventID
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
 	METHOD a spawnParticles (Ljava/lang/String;DDDDDD)V
 		ARG 1 particleName
 		ARG 2 x

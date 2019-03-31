@@ -1,1 +1,2 @@
 CLASS yo net/minecraft/client/sound/SoundManager
+	METHOD b play (Ljava/lang/String;FFFFF)V

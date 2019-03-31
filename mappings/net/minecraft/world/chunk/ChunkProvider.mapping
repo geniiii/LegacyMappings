@@ -1,1 +1,10 @@
 CLASS cl net/minecraft/world/chunk/ChunkProvider
+	METHOD a (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD b (II)Llm;
+		ARG 1 x
+		ARG 2 z
+	METHOD c (II)Llm;
+		ARG 1 x
+		ARG 2 z

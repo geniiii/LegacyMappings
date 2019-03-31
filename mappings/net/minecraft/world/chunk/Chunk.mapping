@@ -1,1 +1,2 @@
 CLASS lm net/minecraft/world/chunk/Chunk
+	METHOD c getBlockLightValue (IIII)I

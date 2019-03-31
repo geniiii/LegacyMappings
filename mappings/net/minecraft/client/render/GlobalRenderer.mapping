@@ -3,5 +3,6 @@ CLASS n net/minecraft/client/render/GlobalRenderer
 	FIELD l renderEngine Lji;
 	FIELD t minecraft Lnet/minecraft/client/Minecraft;
 	METHOD a renderSky (F)V
+	METHOD a renderBreakingBlock (Lgs;Lvf;ILiz;F)V
 	METHOD b renderClouds (F)V
 	METHOD c renderFancyClouds (F)V

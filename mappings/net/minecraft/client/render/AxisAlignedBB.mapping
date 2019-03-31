@@ -1,1 +1,2 @@
 CLASS eq net/minecraft/client/render/AxisAlignedBB
+	METHOD d offset (DDD)Leq;

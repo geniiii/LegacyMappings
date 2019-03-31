@@ -1,1 +1,3 @@
 CLASS qq net/minecraft/client/render/ScaledResolution
+	METHOD a getScaledWidth ()I
+	METHOD b getScaledHeight ()I

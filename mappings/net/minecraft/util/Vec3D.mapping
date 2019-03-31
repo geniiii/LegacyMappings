@@ -1,1 +1,4 @@
 CLASS bt net/minecraft/util/Vec3D
+	FIELD a x D
+	FIELD b y D
+	FIELD c z D

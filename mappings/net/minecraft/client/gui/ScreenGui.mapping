@@ -1,1 +1,15 @@
 CLASS da net/minecraft/client/gui/ScreenGui
+	FIELD b minecraft Lnet/minecraft/client/Minecraft;
+	FIELD c width I
+	FIELD d height I
+	FIELD e widgetList Ljava/util/List;
+	FIELD g fontRenderer Lsj;
+	METHOD a draw (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 partialTicks
+	METHOD a onPressed (Lke;)V
+		ARG 1 button
+	METHOD a setResolution (Lnet/minecraft/client/Minecraft;II)V
+	METHOD b init ()V
+	METHOD i drawDefaultBackground ()V

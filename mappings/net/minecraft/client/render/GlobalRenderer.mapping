@@ -2,6 +2,8 @@ CLASS n net/minecraft/client/render/GlobalRenderer
 	FIELD k world Lfd;
 	FIELD l renderEngine Lji;
 	FIELD t minecraft Lnet/minecraft/client/Minecraft;
+	FIELD y starGlList I
+	FIELD z glSkylist I
 	METHOD a renderSky (F)V
 	METHOD a renderBreakingBlock (Lgs;Lvf;ILiz;F)V
 	METHOD b renderClouds (F)V

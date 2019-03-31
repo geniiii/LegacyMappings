@@ -1,1 +1,2 @@
 CLASS xa net/minecraft/world/WorldProvider
+	FIELD c isNether Z

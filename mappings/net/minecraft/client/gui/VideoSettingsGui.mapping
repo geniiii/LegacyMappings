@@ -1,1 +1,7 @@
 CLASS nj net/minecraft/client/gui/VideoSettingsGui
+	FIELD a title Ljava/lang/String;
+	FIELD i parent Lda;
+	FIELD j gameSettings Lkv;
+	FIELD l videoSettings [Lht;
+	METHOD <init> (Lda;Lkv;)V
+		ARG 1 parent

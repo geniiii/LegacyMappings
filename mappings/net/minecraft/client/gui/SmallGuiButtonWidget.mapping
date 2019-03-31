@@ -1,0 +1,8 @@
+CLASS ab net/minecraft/client/gui/SmallGuiButtonWidget
+	FIELD i options Lht;
+	METHOD <init> (IIILht;Ljava/lang/String;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 5 message
+	METHOD a getOptions ()Lht;

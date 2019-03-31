@@ -1,1 +1,2 @@
 CLASS u net/minecraft/client/render/RenderHelper
+	METHOD a disableStandardItemLighting ()V

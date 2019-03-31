@@ -1,19 +1,25 @@
 CLASS net/minecraft/client/Minecraft net/minecraft/client/MinecraftClient
+	FIELD A minecraftApplet Lnet/minecraft/client/MinecraftApplet;
 	FIELD B soundManager Lyo;
+	FIELD C mouseHelper Lvy;
+	FIELD D texturePacks Lik;
 	FIELD Q isFullscreen Z
 	FIELD R crashed Z
 	FIELD S glCapsChecker Lcx;
 	FIELD T timer Lpy;
 	FIELD Z minecraftSavedDataDir Ljava/io/File;
 	FIELD a minecraft Lnet/minecraft/client/Minecraft;
+	FIELD aa saveConverter Lnl;
 	FIELD ab serverIP Ljava/lang/String;
 	FIELD ac serverPort I
 	FIELD af minecraftDir Ljava/io/File;
+	FIELD c playerController Lob;
 	FIELD d displayWidth I
 	FIELD e displayHeight I
 	FIELD f world Lfd;
 	FIELD g globalRenderer Ln;
 	FIELD h player Ldc;
+	FIELD i viewingEntity Lls;
 	FIELD j particleRenderer Ldn;
 	FIELD k playerSession Lgr;
 	FIELD m canvas Ljava/awt/Canvas;
@@ -22,6 +28,7 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/MinecraftClient
 	FIELD q fontRenderer Lsj;
 	FIELD r currentScreenGui Lda;
 	FIELD s loadingScreenGui Lmk;
+	FIELD u achievementGui Lvu;
 	FIELD v ingameGui Luq;
 	FIELD z gameSettings Lkv;
 	METHOD C forceReloadSoundManager ()V

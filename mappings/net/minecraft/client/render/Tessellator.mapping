@@ -1,2 +1,5 @@
 CLASS nw net/minecraft/client/render/Tessellator
 	FIELD a INSTANCE Lnw;
+	METHOD a draw ()V
+	METHOD a vertex (DDDDD)V
+	METHOD b startDrawingQuads ()V

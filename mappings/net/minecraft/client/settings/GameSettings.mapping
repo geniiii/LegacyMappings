@@ -1,1 +1,51 @@
 CLASS kv net/minecraft/client/settings/GameSettings
+	FIELD C lastServer Ljava/lang/String;
+	FIELD I guiScale I
+	FIELD J VIEW_DISTANCES [Ljava/lang/String;
+	FIELD K DIFFICULTIES [Ljava/lang/String;
+	FIELD L GUI_SCALES [Ljava/lang/String;
+	FIELD M FRAMERATE_LIMITS [Ljava/lang/String;
+	FIELD N optionsFile Ljava/io/File;
+	FIELD a musicVolume F
+	FIELD b soundVolume F
+	FIELD c mouseSensitivity F
+	FIELD d invertMouse Z
+	FIELD e viewDistance I
+	FIELD f viewBobbing Z
+	FIELD g anaglyph Z
+	FIELD h advancedOpengl Z
+	FIELD i fpsLimit I
+	FIELD j fancyGraphics Z
+	FIELD k ambientOcclusion Z
+	FIELD l skin Ljava/lang/String;
+	FIELD m forwardKeyBinding Lqb;
+	FIELD n leftKeyBinding Lqb;
+	FIELD o backKeyBinding Lqb;
+	FIELD p rightKeyBinding Lqb;
+	FIELD q jumpKeyBinding Lqb;
+	FIELD r inventoryKeyBinding Lqb;
+	FIELD s dropKeyBinding Lqb;
+	FIELD t chatKeyBinding Lqb;
+	FIELD u fogKeyBinding Lqb;
+	FIELD v sneakKeyBinding Lqb;
+	FIELD w keyBindingArray [Lqb;
+	FIELD x minecraft Lnet/minecraft/client/Minecraft;
+	FIELD y difficulty I
+	METHOD a loadOptions ()V
+	METHOD a getKeyBindingName (I)Ljava/lang/String;
+		ARG 1 keyBindingId
+	METHOD a setKeyBinding (II)V
+		ARG 1 keyBindingId
+		ARG 2 keyCode
+	METHOD a getOptionValue (Lht;)F
+		ARG 1 option
+	METHOD a (Lht;F)V
+		ARG 1 option
+		ARG 2 value
+	METHOD a setOption (Lht;I)V
+	METHOD a parseFloat (Ljava/lang/String;)F
+	METHOD b save ()V
+	METHOD b getKeyBindingKeyName (I)Ljava/lang/String;
+		ARG 1 keyBindingId
+	METHOD c getKeyBinding (Lht;)Ljava/lang/String;
+		ARG 1 option

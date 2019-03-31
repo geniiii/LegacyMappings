@@ -1,1 +1,27 @@
 CLASS ht net/minecraft/client/settings/Options
+	FIELD a MUSIC Lht;
+	FIELD b SOUND Lht;
+	FIELD c INVERT_MOUSE Lht;
+	FIELD d SENSITIVITY Lht;
+	FIELD e RENDER_DISTANCE Lht;
+	FIELD f VIEW_BOBBING Lht;
+	FIELD g ANAGLYPH Lht;
+	FIELD h ADVANCED_OPENGL Lht;
+	FIELD i FRAMERATE_LIMIT Lht;
+	FIELD j DIFFICULTY Lht;
+	FIELD k GRAPHICS Lht;
+	FIELD l AMBIENT_OCCLUSION Lht;
+	FIELD m GUI_SCALE Lht;
+	FIELD n isFloat Z
+	FIELD o isBool Z
+	FIELD p name Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;ZZ)V
+		ARG 3 name
+		ARG 4 isFloat
+		ARG 5 isBool
+	METHOD a isFloat ()Z
+	METHOD a getOption (I)Lht;
+		ARG 0 ordinal
+	METHOD b isBool ()Z
+	METHOD c getOrdinal ()I
+	METHOD d getName ()Ljava/lang/String;

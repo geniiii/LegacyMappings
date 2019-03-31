@@ -1,13 +1,68 @@
 CLASS sn net/minecraft/entity/Entity
+	FIELD aG riddenBy Lsn;
+	FIELD aH riddenEntity Lsn;
 	FIELD aI world Lfd;
+	FIELD aJ prevX D
+	FIELD aK prevY D
+	FIELD aL prevZ D
 	FIELD aM x D
 	FIELD aN y D
 	FIELD aO z D
+	FIELD aP motionX D
+	FIELD aQ motiony D
+	FIELD aR motionZ D
 	FIELD aS yaw F
 	FIELD aT pitch F
+	FIELD aU prevYaw F
+	FIELD aV prevPitch F
+	FIELD aW boundingBox Leq;
+	FIELD aX onGround Z
 	FIELD be dead Z
+	FIELD bf yOffset F
+	FIELD bk fallDistance F
+	FIELD bl lastTickX D
+	FIELD bm lastTickY D
+	FIELD bn lastTickZ D
+	FIELD bo ySize F
+	FIELD bv fire I
+	FIELD bx inWater Z
+	FIELD bz air I
+	FIELD d riderPitch D
+	FIELD e riderYaw D
+	METHOD U tick ()V
+	METHOD a setWorld (Lfd;)V
 	METHOD a readCustomDataFromTag (Lnu;)V
+	METHOD b setPositionAndRotation (DDDFF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yaw
+		ARG 8 pitch
 	METHOD b writeCustomDataToTag (Lnu;)V
 	METHOD c setPositionAndAngles (DDDFF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yaw
+		ARG 8 pitch
+	METHOD c setRotation (FF)V
+	METHOD d addVelocity (DDD)V
+		ARG 1 velocityX
+		ARG 3 velocityY
+		ARG 5 velocityZ
+	METHOD d writeToTag (Lnu;)V
 	METHOD e setPos (DDD)V
+	METHOD e readFromTag (Lnu;)V
+	METHOD f getDistanceToEntity (Lsn;)F
+	METHOD g getDistanceSquared (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD g getDistanceToEntitySquared (Lsn;)D
+	METHOD h getDistance (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD s_ updateRidden ()V
 	METHOD u_ updateCloak ()V
+	METHOD w_ onTick ()V

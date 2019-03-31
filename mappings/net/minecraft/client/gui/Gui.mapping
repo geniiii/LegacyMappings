@@ -1,1 +1,2 @@
 CLASS ub net/minecraft/client/gui/Gui
+	METHOD a drawCenteredString (Lsj;Ljava/lang/String;III)V

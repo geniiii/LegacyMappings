@@ -1,1 +1,2 @@
 CLASS jl net/minecraft/achievement/StatList
+	FIELD y deaths Lvr;

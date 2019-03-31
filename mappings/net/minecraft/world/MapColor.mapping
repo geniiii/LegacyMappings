@@ -1,1 +1,21 @@
 CLASS dx net/minecraft/world/MapColor
+	FIELD a colorArray [Ldx;
+	FIELD b airColor Ldx;
+	FIELD c grassColor Ldx;
+	FIELD d sandColor Ldx;
+	FIELD e leatherColor Ldx;
+	FIELD f tntColor Ldx;
+	FIELD g iceColor Ldx;
+	FIELD h ironColor Ldx;
+	FIELD i plantColor Ldx;
+	FIELD j snowColor Ldx;
+	FIELD k clayColor Ldx;
+	FIELD l dirtColor Ldx;
+	FIELD m stoneColor Ldx;
+	FIELD n waterColor Ldx;
+	FIELD o woodColor Ldx;
+	FIELD p value I
+	FIELD q id I
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 value

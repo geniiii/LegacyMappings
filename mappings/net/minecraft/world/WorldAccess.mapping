@@ -1,1 +1,9 @@
 CLASS pm net/minecraft/world/WorldAccess
+	METHOD a spawnParticles (Ljava/lang/String;DDDDDD)V
+		ARG 1 particleName
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 velocityX
+		ARG 10 velocityY
+		ARG 12 velocityZ

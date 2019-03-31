@@ -1,1 +1,7 @@
 CLASS n net/minecraft/client/render/GlobalRenderer
+	FIELD k world Lfd;
+	FIELD l renderEngine Lji;
+	FIELD t minecraft Lnet/minecraft/client/Minecraft;
+	METHOD a renderSky (F)V
+	METHOD b renderClouds (F)V
+	METHOD c renderFancyClouds (F)V

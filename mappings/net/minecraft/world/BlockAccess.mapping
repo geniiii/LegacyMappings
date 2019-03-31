@@ -1,1 +1,2 @@
 CLASS xp net/minecraft/world/BlockAccess
+	METHOD f getBlockMaterial (III)Lln;

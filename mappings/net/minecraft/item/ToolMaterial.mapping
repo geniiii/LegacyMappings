@@ -1,1 +1,6 @@
 CLASS bu net/minecraft/item/ToolMaterial
+	FIELD a WOOD Lbu;
+	FIELD b STONE Lbu;
+	FIELD c IRON Lbu;
+	FIELD d DIAMOND Lbu;
+	FIELD e GOLD Lbu;

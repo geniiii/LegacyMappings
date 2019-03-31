@@ -1,1 +1,3 @@
 CLASS mm net/minecraft/client/world/ClientWorld
+	FIELD D clientHandler Lnb;
+	FIELD E clientChunkProvider Luv;

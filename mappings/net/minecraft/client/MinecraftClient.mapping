@@ -1,1 +1,45 @@
 CLASS net/minecraft/client/Minecraft net/minecraft/client/MinecraftClient
+	FIELD B soundManager Lyo;
+	FIELD Q isFullscreen Z
+	FIELD R crashed Z
+	FIELD S glCapsChecker Lcx;
+	FIELD T timer Lpy;
+	FIELD Z minecraftSavedDataDir Ljava/io/File;
+	FIELD a minecraft Lnet/minecraft/client/Minecraft;
+	FIELD ab serverIP Ljava/lang/String;
+	FIELD ac serverPort I
+	FIELD af minecraftDir Ljava/io/File;
+	FIELD d displayWidth I
+	FIELD e displayHeight I
+	FIELD f world Lfd;
+	FIELD g globalRenderer Ln;
+	FIELD h player Ldc;
+	FIELD j particleRenderer Ldn;
+	FIELD k playerSession Lgr;
+	FIELD m canvas Ljava/awt/Canvas;
+	FIELD o isPaused Z
+	FIELD p renderEngine Lji;
+	FIELD q fontRenderer Lsj;
+	FIELD r currentScreenGui Lda;
+	FIELD s loadingScreenGui Lmk;
+	FIELD v ingameGui Luq;
+	FIELD z gameSettings Lkv;
+	METHOD C forceReloadSoundManager ()V
+	METHOD a run ()V
+	METHOD a resize (II)V
+	METHOD a displayScreenGui (Lda;)V
+	METHOD a changeWorld (Lfd;)V
+	METHOD a changeWorld (Lfd;Ljava/lang/String;)V
+	METHOD a changeWorld (Lfd;Ljava/lang/String;Lgs;)V
+	METHOD a getAppPath (Ljava/lang/String;)Ljava/io/File;
+	METHOD a setServer (Ljava/lang/String;I)V
+		ARG 1 ip
+		ARG 2 port
+	METHOD a startMainThread (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a respawnPlayer (ZI)V
+	METHOD b convertSave (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD b onCrash (Lmh;)V
+	METHOD j toggleFullscreen ()V
+	METHOD m toggleDimension ()V
+	METHOD n getGlCapsChecker ()Lcx;
+	METHOD x drawSplashScreen ()V

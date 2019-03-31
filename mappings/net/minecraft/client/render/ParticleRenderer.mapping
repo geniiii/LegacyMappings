@@ -1,1 +1,2 @@
 CLASS dn net/minecraft/client/render/ParticleRenderer
+	METHOD a addParticle (Lxw;)V

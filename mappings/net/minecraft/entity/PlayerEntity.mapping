@@ -1,1 +1,13 @@
 CLASS gs net/minecraft/entity/PlayerEntity
+	FIELD a sleepTimer I
+	FIELD b spawnChunkCoordinates Lbr;
+	FIELD c inventory Lix;
+	FIELD g score I
+	FIELD l username Ljava/lang/String;
+	FIELD m dimensionID I
+	FIELD u sleeping Z
+	FIELD v bedChunkCoordinates Lbr;
+	METHOD C getScore ()I
+	METHOD Q getSpawnPointChunkCoordinates ()Lbr;
+	METHOD a addStat (Lvr;I)V
+	METHOD b addChatMessage (Ljava/lang/String;)V

@@ -1,1 +1,24 @@
 CLASS nu net/minecraft/nbt/NBTTagCompound
+	FIELD a tags Ljava/util/Map;
+	METHOD a putByte (Ljava/lang/String;B)V
+	METHOD a putDouble (Ljava/lang/String;D)V
+	METHOD a putFloat (Ljava/lang/String;F)V
+	METHOD a putInt (Ljava/lang/String;I)V
+	METHOD a putFloat (Ljava/lang/String;J)V
+	METHOD a putString (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a put (Ljava/lang/String;Lnu;)V
+	METHOD a putShort (Ljava/lang/String;S)V
+	METHOD a putBool (Ljava/lang/String;Z)V
+	METHOD a putByteArray (Ljava/lang/String;[B)V
+	METHOD b contains (Ljava/lang/String;)Z
+	METHOD c getByte (Ljava/lang/String;)B
+	METHOD d getShort (Ljava/lang/String;)S
+	METHOD e getInt (Ljava/lang/String;)I
+	METHOD f getLong (Ljava/lang/String;)J
+	METHOD g getFloat (Ljava/lang/String;)F
+	METHOD h getDouble (Ljava/lang/String;)D
+	METHOD i getString (Ljava/lang/String;)Ljava/lang/String;
+	METHOD j getByteArray (Ljava/lang/String;)[B
+	METHOD k getTag (Ljava/lang/String;)Lnu;
+	METHOD l getList (Ljava/lang/String;)Lsp;
+	METHOD m getBool (Ljava/lang/String;)Z

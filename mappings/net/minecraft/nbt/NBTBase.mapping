@@ -1,1 +1,12 @@
 CLASS ij net/minecraft/nbt/NBTBase
+	FIELD a key Ljava/lang/String;
+	METHOD a getType ()B
+	METHOD a createTagByType (B)Lij;
+		ARG 0 type
+	METHOD a writeTag (Lij;Ljava/io/DataOutput;)V
+	METHOD a read (Ljava/io/DataInput;)V
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD b getKey ()Ljava/lang/String;
+	METHOD b getTagNameByType (B)Ljava/lang/String;
+		ARG 0 type
+	METHOD b readTag (Ljava/io/DataInput;)Lij;

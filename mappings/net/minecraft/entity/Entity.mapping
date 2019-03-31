@@ -1,1 +1,13 @@
 CLASS sn net/minecraft/entity/Entity
+	FIELD aI world Lfd;
+	FIELD aM x D
+	FIELD aN y D
+	FIELD aO z D
+	FIELD aS yaw F
+	FIELD aT pitch F
+	FIELD be dead Z
+	METHOD a readCustomDataFromTag (Lnu;)V
+	METHOD b writeCustomDataToTag (Lnu;)V
+	METHOD c setPositionAndAngles (DDDFF)V
+	METHOD e setPos (DDD)V
+	METHOD u_ updateCloak ()V

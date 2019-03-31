@@ -1,1 +1,2 @@
 CLASS nw net/minecraft/client/render/Tessellator
+	FIELD a INSTANCE Lnw;

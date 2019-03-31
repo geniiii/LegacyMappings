@@ -1,2 +1,5 @@
 CLASS fd net/minecraft/world/World
+	FIELD B isMultiplayer Z
 	FIELD r random Ljava/util/Random;
+	METHOD e killEntity (Lsn;)V
+	METHOD w getChunkProvider ()Lcl;

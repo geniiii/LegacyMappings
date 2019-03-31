@@ -1,1 +1,3 @@
 CLASS ji net/minecraft/client/render/RenderEngine
+	METHOD a registerEffectTexture (Law;)V
+	METHOD b getTexture (Ljava/lang/String;)I

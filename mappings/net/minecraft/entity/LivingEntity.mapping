@@ -1,1 +1,2 @@
 CLASS ls net/minecraft/entity/LivingEntity
+	METHOD b onDeath (Lsn;)V

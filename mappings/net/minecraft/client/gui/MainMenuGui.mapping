@@ -1,1 +1,2 @@
 CLASS fu net/minecraft/client/gui/MainMenuGui
+	FIELD j splash Ljava/lang/String;

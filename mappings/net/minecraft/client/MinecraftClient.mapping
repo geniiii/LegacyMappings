@@ -1,5 +1,5 @@
 CLASS net/minecraft/client/Minecraft net/minecraft/client/MinecraftClient
-	FIELD A minecraftApplet Lnet/minecraft/client/MinecraftApplet;
+	FIELD A applet Lnet/minecraft/client/MinecraftApplet;
 	FIELD B soundManager Lyo;
 	FIELD C mouseHelper Lvy;
 	FIELD D texturePacks Lik;
@@ -9,6 +9,7 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/MinecraftClient
 	FIELD R crashed Z
 	FIELD S glCapsChecker Lcx;
 	FIELD T timer Lpy;
+	FIELD U downloadResourcesThread Lcz;
 	FIELD Z minecraftSavedDataDir Ljava/io/File;
 	FIELD a minecraft Lnet/minecraft/client/Minecraft;
 	FIELD aa saveConverter Lnl;
@@ -25,11 +26,13 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/MinecraftClient
 	FIELD j particleRenderer Ldn;
 	FIELD k playerSession Lgr;
 	FIELD m canvas Ljava/awt/Canvas;
+	FIELD n isApplet Z
 	FIELD o isPaused Z
 	FIELD p renderEngine Lji;
 	FIELD q fontRenderer Lsj;
 	FIELD r currentScreenGui Lda;
 	FIELD s loadingScreenGui Lmk;
+	FIELD t entityRenderer Lpx;
 	FIELD u achievementGui Lvu;
 	FIELD v ingameGui Luq;
 	FIELD z gameSettings Lkv;
@@ -46,9 +49,12 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/MinecraftClient
 		ARG 2 port
 	METHOD a startMainThread (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 	METHOD a respawnPlayer (ZI)V
+	METHOD b getMinecraftDir ()Ljava/io/File;
 	METHOD b convertSave (Ljava/lang/String;Ljava/lang/String;)V
 	METHOD b onCrash (Lmh;)V
+	METHOD c getSaveConverter ()Lnl;
 	METHOD j toggleFullscreen ()V
 	METHOD m toggleDimension ()V
 	METHOD n getGlCapsChecker ()Lcx;
 	METHOD x drawSplashScreen ()V
+	METHOD y getOS ()Lpd;

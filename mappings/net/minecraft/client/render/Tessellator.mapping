@@ -1,5 +1,11 @@
 CLASS nw net/minecraft/client/render/Tessellator
 	FIELD a INSTANCE Lnw;
+	FIELD n hasNormal Z
+	FIELD q colorDisabled Z
+	FIELD v normal I
+	FIELD w drawing Z
 	METHOD a draw ()V
 	METHOD a vertex (DDDDD)V
 	METHOD b startDrawingQuads ()V
+	METHOD b setNormal (FFF)V
+	METHOD c disableColor ()V

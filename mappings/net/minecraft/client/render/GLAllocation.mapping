@@ -1,1 +1,8 @@
 CLASS ge net/minecraft/client/render/GLAllocation
+	METHOD a deleteTexturesAndLists ()V
+	METHOD a genLists (I)I
+	METHOD a genTextureNames (Ljava/nio/IntBuffer;)V
+	METHOD b deleteList (I)V
+	METHOD c allocateByteBuffer (I)Ljava/nio/ByteBuffer;
+	METHOD d allocateIntBuffer (I)Ljava/nio/IntBuffer;
+	METHOD e allocateFloatBuffer (I)Ljava/nio/FloatBuffer;

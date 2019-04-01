@@ -1,1 +1,4 @@
 CLASS cu net/minecraft/client/control/MouseFilter
+	METHOD a filterMouseX (FF)F
+		ARG 1 mouseX
+		ARG 2 speed

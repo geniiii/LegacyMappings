@@ -1,1 +1,4 @@
 CLASS fp net/minecraft/client/chat/ChatAllowedCharacters
+	FIELD a allowedCharacters Ljava/lang/String;
+	FIELD b specialAllowedCharacters [C
+	METHOD a getAllowedCharacters ()Ljava/lang/String;

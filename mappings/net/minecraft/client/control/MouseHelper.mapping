@@ -1,1 +1,7 @@
 CLASS vy net/minecraft/client/control/MouseHelper
+	FIELD a cursorDeltaX I
+	FIELD b cursorDeltaY I
+	FIELD d cursor Lorg/lwjgl/input/Cursor;
+	FIELD e window I
+	METHOD a lockCursor ()V
+	METHOD b unlockCursor ()V

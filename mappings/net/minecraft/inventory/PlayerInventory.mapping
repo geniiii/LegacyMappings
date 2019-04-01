@@ -1,1 +1,11 @@
 CLASS ix net/minecraft/inventory/PlayerInventory
+	FIELD a items [Liz;
+	FIELD b armor [Liz;
+	FIELD c selectedItem I
+	FIELD d player Lgs;
+	FIELD f itemStack Liz;
+	METHOD b setItemStack (Liz;)V
+	METHOD e damageArmor (I)V
+		ARG 1 amount
+	METHOD g dropItems ()V
+	METHOD i getItemStacj ()Liz;

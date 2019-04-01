@@ -1,2 +1,28 @@
 CLASS jl net/minecraft/achievement/StatList
+	FIELD A playerKills Lvr;
+	FIELD B fishCaught Lvr;
+	FIELD C minedBlocks [Lvr;
+	FIELD D timesCrafted [Lvr;
+	FIELD E timesUsed [Lvr;
+	FIELD F timesBroken [Lvr;
+	FIELD f startedGame Lvr;
+	FIELD g createdLevel Lvr;
+	FIELD h loadedLevel Lvr;
+	FIELD i joined Lvr;
+	FIELD j left Lvr;
+	FIELD k played Lvr;
+	FIELD l walked Lvr;
+	FIELD m swimmed Lvr;
+	FIELD n fell Lvr;
+	FIELD o climbed Lvr;
+	FIELD p flew Lvr;
+	FIELD q dived Lvr;
+	FIELD r rodeMinecart Lvr;
+	FIELD s rodeBoat Lvr;
+	FIELD t rodePig Lvr;
+	FIELD u jumped Lvr;
+	FIELD v droppedItems Lvr;
+	FIELD w damageDealt Lvr;
+	FIELD x damageTaken Lvr;
 	FIELD y deaths Lvr;
+	FIELD z mobKills Lvr;

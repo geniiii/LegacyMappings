@@ -84,6 +84,7 @@ CLASS gm net/minecraft/item/Item
 	FIELD bc shears Lbl;
 	FIELD bd record13 Lgm;
 	FIELD be recordCat Lgm;
+	FIELD bf ID I
 	FIELD bg maxStackSize I
 	FIELD bh iconCoordinates I
 	FIELD bi render3D Z

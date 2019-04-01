@@ -1,1 +1,8 @@
 CLASS nb net/minecraft/network/ClientHandler
+	FIELD c random Ljava/util/Random;
+	FIELD d disconnected Z
+	FIELD e networkManager Lpf;
+	FIELD f minecraft Lnet/minecraft/client/Minecraft;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
+		ARG 2 ip
+		ARG 3 port

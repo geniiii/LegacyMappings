@@ -1,1 +1,7 @@
 CLASS up net/minecraft/client/gui/ControlsGui
+	FIELD a title Ljava/lang/String;
+	FIELD i parent Lda;
+	FIELD j settings Lkv;
+	FIELD l lastPressedButtonWidgetId I
+	METHOD <init> (Lda;Lkv;)V
+		ARG 1 parent

@@ -1,1 +1,2 @@
 CLASS sj net/minecraft/client/render/FontRenderer
+	METHOD b drawStringCentered (Ljava/lang/String;III)V

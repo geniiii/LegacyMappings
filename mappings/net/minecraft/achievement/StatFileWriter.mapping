@@ -1,1 +1,2 @@
 CLASS xi net/minecraft/achievement/StatFileWriter
+	METHOD a writeStat (Lvr;I)V

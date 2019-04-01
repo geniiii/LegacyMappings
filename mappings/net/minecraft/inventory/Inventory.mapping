@@ -1,1 +1,5 @@
 CLASS lw net/minecraft/inventory/Inventory
+	METHOD a getInventorySize ()I
+	METHOD a_ canInteractWith (Lgs;)Z
+	METHOD c getName ()Ljava/lang/String;
+	METHOD d getItemStackLimit ()I

@@ -1,1 +1,3 @@
 CLASS uo net/minecraft/client/control/MovementInput
+	METHOD a (IZ)V
+		ARG 1 keyCode

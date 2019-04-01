@@ -1,8 +1,11 @@
 CLASS yo net/minecraft/client/sound/SoundManager
 	FIELD a soundSystem Lpaulscode/sound/SoundSystem;
-	FIELD f gameSettings Lkv;
+	FIELD f settings Lkv;
 	FIELD g loaded Z
+	FIELD h random Ljava/util/Random;
 	METHOD a setMusicVolume ()V
+	METHOD a play (Ljava/lang/String;FF)V
+	METHOD a playStreaming (Ljava/lang/String;FFFFF)V
 	METHOD b cleanup ()V
 	METHOD b play (Ljava/lang/String;FFFFF)V
 	METHOD d load ()V

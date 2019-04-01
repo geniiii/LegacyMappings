@@ -1,1 +1,2 @@
 CLASS lr net/minecraft/client/settings/MovementInputFromOptions
+	FIELD g settings Lkv;

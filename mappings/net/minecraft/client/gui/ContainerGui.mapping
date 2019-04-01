@@ -1,1 +1,2 @@
 CLASS id net/minecraft/client/gui/ContainerGui
+	FIELD l itemRenderer Lbb;

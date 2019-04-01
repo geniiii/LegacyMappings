@@ -1,1 +1,6 @@
 CLASS vx net/minecraft/client/gui/ConnectingGui
+	FIELD a clientHandler Lnb;
+	FIELD i connecting Z
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
+		ARG 2 ip
+		ARG 3 port

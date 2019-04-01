@@ -3,6 +3,8 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/MinecraftClient
 	FIELD B soundManager Lyo;
 	FIELD C mouseHelper Lvy;
 	FIELD D texturePacks Lik;
+	FIELD H checkedAt J
+	FIELD I statFileWriter Lxi;
 	FIELD Q isFullscreen Z
 	FIELD R crashed Z
 	FIELD S glCapsChecker Lcx;

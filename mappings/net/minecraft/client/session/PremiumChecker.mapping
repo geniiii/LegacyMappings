@@ -1,1 +1,4 @@
 CLASS kp net/minecraft/client/session/PremiumChecker
+	FIELD a minecraft Lnet/minecraft/client/Minecraft;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft

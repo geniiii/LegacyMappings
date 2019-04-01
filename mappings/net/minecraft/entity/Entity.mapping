@@ -1,4 +1,5 @@
 CLASS sn net/minecraft/entity/Entity
+	FIELD aD id I
 	FIELD aG riddenBy Lsn;
 	FIELD aH riddenEntity Lsn;
 	FIELD aI world Lfd;
@@ -17,6 +18,8 @@ CLASS sn net/minecraft/entity/Entity
 	FIELD aV prevPitch F
 	FIELD aW boundingBox Leq;
 	FIELD aX onGround Z
+	FIELD bC immuneToFire Z
+	FIELD bb attacked Z
 	FIELD be dead Z
 	FIELD bf yOffset F
 	FIELD bk fallDistance F
@@ -29,9 +32,22 @@ CLASS sn net/minecraft/entity/Entity
 	FIELD bz air I
 	FIELD d riderPitch D
 	FIELD e riderYaw D
+	METHOD K kill ()V
 	METHOD U tick ()V
+	METHOD a setVelocity (DDD)V
+		ARG 1 velocityX
+		ARG 3 velocityY
+		ARG 5 velocityZ
+	METHOD a (DDDFFI)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yaw
+		ARG 8 pitch
 	METHOD a setWorld (Lfd;)V
 	METHOD a readCustomDataFromTag (Lnu;)V
+	METHOD a attackEntity (Lsn;I)Z
+	METHOD ai setHasBeenAttacked ()V
 	METHOD b setPositionAndRotation (DDDFF)V
 		ARG 1 x
 		ARG 3 y
@@ -52,6 +68,9 @@ CLASS sn net/minecraft/entity/Entity
 		ARG 5 velocityZ
 	METHOD d writeToTag (Lnu;)V
 	METHOD e setPos (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
 	METHOD e readFromTag (Lnu;)V
 	METHOD f getDistanceToEntity (Lsn;)F
 	METHOD g getDistanceSquared (DDD)D
@@ -63,6 +82,7 @@ CLASS sn net/minecraft/entity/Entity
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
+	METHOD h doEntityCollision (Lsn;)V
 	METHOD s_ updateRidden ()V
 	METHOD u_ updateCloak ()V
 	METHOD w_ onTick ()V

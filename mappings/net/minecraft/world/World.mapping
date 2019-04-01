@@ -16,8 +16,10 @@ CLASS fd net/minecraft/world/World
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
+	METHOD a isBoundingBoxInMaterial (Leq;Lln;)Z
 	METHOD a spawnParticles (Ljava/lang/String;DDDDDD)V
 	METHOD a playRecord (Ljava/lang/String;III)V
+	METHOD a getCollidingBoundingBoxes (Lsn;Leq;)Ljava/util/List;
 	METHOD a playSound (Lsn;Ljava/lang/String;FF)V
 	METHOD b (II)Llm;
 		ARG 1 x
